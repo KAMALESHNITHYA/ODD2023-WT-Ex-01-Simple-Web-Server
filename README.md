@@ -22,7 +22,7 @@ Serving the HTML pages.
 Testing the webserver.
 
 ## PROGRAM:
-
+``````
 from http.server import HTTPServer, 
 BaseHTTPRequestHandler
 content = """
@@ -50,7 +50,7 @@ server_address = ('', 80)
 httpd = HTTPServer (server_address, HelloHandler)
 httpd.serve_forever()
 
-
+``````
 ## OUTPUT:
 ![Screenshot 2023-11-28 212744](https://github.com/KAMALESHNITHYA/ODD2023-WT-Ex-01-Simple-Web-Server/assets/145743119/d3f7cefd-f65a-457c-9fd3-0432c47884fd)
 
